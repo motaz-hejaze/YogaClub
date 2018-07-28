@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div id="body">
+    <h2>Blog</h2>
+    <ul class="blog">
+        {% for post in posts %}
+        <li>
+            <img src="{{ post.image.url }}" alt="yoga in group">
+            <h3><a href="{% url 'post' post.id %}">{{ post.title }}</a></h3>
+            <span>{{ post.created_at }} </span>
+            <p>
+                {{ post.paragraph }}
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div id="footer">
+		<div>
+			<span>{{ site_infos.address }} | {{ site_infos.phone }}</span>
+			<p>
+				&copy; 2023 by Belle &amp; Carrie Rehabilitation Yoga. All rights reserved.
+			</p>
+		</div>
+		<div id="connect">
+			<a href="{{ site_infos.facebook }}" id="facebook" target="_blank">Facebook</a>
+			<a href="{{ site_infos.twitter }}" id="twitter" target="_blank">Twitter</a>
+			<a href="{{ site_infos.google }}" id="googleplus" target="_blank">Google&#43;</a>
+			<a href="{{ site_infos.pinterest }}" id="pinterest" target="_blank">Pinterest</a>
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,75 @@
+home page 
+
+1 object model
+
+         
+
+-------------------------
+
+basic information object
+
+1 object model
+1 address 
+1 phone number
+1 facebook page
+1 twitter page
+1 pinterest page
+1 google plus page
+
+___________________________
+
+about page
+
+4 titles
+4 paragraphs
+
+
+___________________________
+
+classes page
+
+3 titles
+3 paragraphs
+3 MWF
+3 TTHS
+
+______________________________
+
+instructors page
+
+4 images
+4 names
+
+_______________________________
+
+contact page
+
+name
+email
+subject
+message
+
+_______________________________
+
+
+blog page
+
+3 blog posts ... 
+
+each post 
+
+title 
+date
+truncated paragraph
+image
+
+------------------------------------
+
+single post page
+
+image 
+title
+date
+complete paragraph
+
+3 latest post titles+dates 
